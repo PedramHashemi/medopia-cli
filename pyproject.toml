@@ -3,13 +3,13 @@ requires = ["setuptools>=61", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "meditopia-cli"
+name = "medopia-cli"
 version = "0.1.0"
-description = "CLI tool for uploading models and datasets to Meditopia"
+description = "CLI tool for uploading models and datasets to MedOpia"
 readme = "README.md"
 license = { text = "MIT" }
 requires-python = ">=3.9"
-keywords = ["meditopia", "cli", "medical-ai", "machine-learning"]
+keywords = ["medopia", "cli", "medical-ai", "machine-learning"]
 classifiers = [
     "Programming Language :: Python :: 3",
     "License :: OSI Approved :: MIT License",
@@ -22,12 +22,12 @@ dependencies = [
 ]
 
 [project.urls]
-Homepage = "https://meditopia.io"
-Repository = "https://github.com/meditopia/meditopia-cli"
+Homepage = "https://medopia.io"
+Repository = "https://github.com/medopia/medopia-cli"
 
 [project.scripts]
-medi = "meditopia.cli:app"
+medi = "medopia.cli:app"
 
 [tool.setuptools.packages.find]
 where = ["."]
-include = ["meditopia*"]
+include = ["medopia*"]
